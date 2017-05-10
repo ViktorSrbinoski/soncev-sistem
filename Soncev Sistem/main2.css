@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font: bold 40px Tahoma;
+}
+h2 {
+	font: bold 20px Tahoma;
+}
+h3{
+	font: bold 18px Tahoma;
+}
+h4{
+	font: bold 15px Tahoma;
+}
+img{
+	border-radius:200px;
+	vertical-align:middle;
+}
+header, section, nav, article{
+	display:block;
+}
+body{
+	text-align:center;
+	background-image:url(sliki/stars.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+a:link {color:yellow; text-decoration:none;}
+a:visited {color:yellow;}
+a:hover {color:orange; font-weight:bold;}
+a:active {background-color:#003366;}
+#big_Wrapper{
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+#top_header{
+	padding: 20px;
+	text-align:center;
+	color:white;
+}
+#top_menu{
+	text-align:center;
+	width:100%;
+	margin:auto;
+	color: white;
+}
+#top_menu li{
+	border:1px solid white;
+	background:#000033;
+	display: inline-block;
+	list-style: none;
+	padding: 15px;
+	font: bold 14px Tahoma;
+}
+#main_section{
+	width:100%;
+	text-align:justify;
+}
+
+article{
+	padding: 20px;
+	margin-bottom: 15px;
+	color:white;
+}
+#tabela{
+	width:990px;
+	margin:auto;
+	text-align:center;
+}
+#tabela td{
+	width:495px;
+	height:300px;
+}
+#par{
+	font:bold 18px Tahoma;
+	text-align:right;
+	position:relative;
+	bottom:80px;
+	right:70px;
+}
+#wrap{
+	text-align:center;
+	margin:auto;
+	width:255px;
+	height:255px;
+	line-height:255px;
+}
+#wrap1{
+	text-align:center;;
+	margin:auto;
+	width:990px;
+	height:255px;
+	line-height:255px;
+}
+#txt{
+	float:left;
+	padding:5px;
+	width:80px;
+	font: bold 20px Arial;
+	color:white;
+	position:relative;
+	top:35px;
+	left:25px;
+}
+#naslov{
+	position:relative;
+	right:20px;
+}
+#search{
+	width:190px;
+	position:relative;
+	bottom:2253px;
+	left:785px;
+}
+#izrabotile{
+	text-align:center;
+	color:orange;
+}

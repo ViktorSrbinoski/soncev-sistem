@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#sistem{
+	height:100%;
+}
+
+h1 {
+	font: bold 40px Tahoma;
+}
+h2 {
+	font: bold 20px Tahoma;
+}
+h3{
+	font: bold 18px Tahoma;
+}
+a:link {color:red; text-decoration:none;}
+a:visited {color:red;}
+a:hover {color:white; text-decoration:underline; font-weight:bold;}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	text-align:center;
+	background-image:url(sliki/stars.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#big_Wrapper{
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+#top_header{
+	padding: 20px;
+	text-align:center;
+	color:white;
+	width:350px;
+	position:relative;
+	left:280px;
+}
+#top_menu{
+	background: blue;
+	color: white;
+}
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px Tahoma;
+}
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px; 
+	text-align:justify;
+}
+#side_news{
+	float: left;
+	width: 210px;
+	margin: 20px 0px;
+	padding: 30px;
+}
+#the_footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+article{
+	padding: 20px;
+	margin-bottom: 15px;
+	color:white;
+}
+article >footer{
+	text-align: right;
+}
+
+#tabela{
+	width:250px;
+	border:2px groove white;
+	position:relative;
+	left:25px;
+}
+#tabela td, th{
+	padding:10px;
+	border:2px groove white;
+	
+}
+#stats{
+	text-align:center;
+	width:300px;
+	position:relative;
+	left:25%;
+}
+
+#s1{
+	width:300px; 
+	height:300px;
+	position:relative;
+	left:180px;
+}
+#vrati{
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	height:70px;
+	width:70px;
+}
+#box{
+	display: block;
+	float:left;
+	width: 80px;
+	font:Tahoma;
+	height:40px;
+	color:white;
+	text-align:center;
+	vertical-align:middle;
+	line-height:40px;
+	position:relative;
+	left:50px;
+	top:30px;
+	background-color:#2A2A90;
+	border-radius: 25px;
+	transition: background 1s, height 1s;
+}
+#box:hover{
+	background:#66B2FF;
+	height:43px;
+}
